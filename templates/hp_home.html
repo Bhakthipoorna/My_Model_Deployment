@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+    <h2>House Price advanced prediction</h2>
+
+<form action="{{url_for('hp_predict')}}" method="post">
+    <p>MSSubClass</p>
+    <p><input type="text" name="MSSubClass"></p>
+    <p>MSZoning</p>
+    <p><input type="text" name="MSZoning"></p>
+    <p>LotFrontage</p>
+    <p><input type="text" name="LotFrontage"></p>
+    <p>LotArea</p>
+    <p><input type="text" name="LotArea"></p>
+    <p>LotShape</p>
+    <p><input type="text" name="LotShape"></p>
+
+    <p>LandContour</p>
+    <p><input type="text" name="LandContour"></p>
+    <p>LotConfig</p>
+    <p><input type="text" name="LotConfig"></p>
+    <p>LandSlope</p>
+    <p><input type="text" name="LandSlope"></p>
+    <p>Neighborhood</p>
+    <p><input type="text" name="Neighborhood"></p>
+    <p>Condition1</p>
+    <p><input type="text" name="Condition1"></p>
+
+    <p>HouseStyle</p>
+    <p><input type="text" name="HouseStyle"></p>
+    <p>OverallQual</p>
+    <p><input type="text" name="OverallQual"></p>
+    <p>OverallCond</p>
+    <p><input type="text" name="OverallCond"></p>
+    <p>YearBuilt</p>
+    <p><input type="text" name="YearBuilt"></p>
+    <p>YearRemodAdd</p>
+    <p><input type="text" name="YearRemodAdd"></p>
+
+    <p>RoofStyle</p>
+    <p><input type="text" name="RoofStyle"></p>
+    <p>Exterior1st</p>
+    <p><input type="text" name="Exterior1st"></p>
+    <p>ExterQual</p>
+    <p><input type="text" name="ExterQual"></p>
+    <p>Foundation</p>
+    <p><input type="text" name="Foundation"></p>
+    <p>BsmtCond</p>
+    <p><input type="text" name="BsmtCond"></p>
+
+    <p>BsmtExposure</p>
+    <p><input type="text" name="BsmtExposure"></p>
+    <p>BsmtFinType1</p>
+    <p><input type="text" name="BsmtFinType1"></p>
+    <p>BsmtFinSF1</p>
+    <p><input type="text" name="BsmtFinSF1"></p>
+    <p>BsmtUnfSF</p>
+    <p><input type="text" name="BsmtUnfSF"></p>
+    <p>TotalBsmtSF</p>
+    <p><input type="text" name="TotalBsmtSF"></p>
+
+    <p>HeatingQC</p>
+    <p><input type="text" name="HeatingQC"></p>
+    <p>CentralAir</p>
+    <p><input type="text" name="CentralAir"></p>
+    <p>Electrical</p>
+    <p><input type="text" name="Electrical"></p>
+    <p>GrLivArea</p>
+    <p><input type="text" name="GrLivArea"></p>
+    <p>FullBath</p>
+    <p><input type="text" name="FullBath"></p>
+
+    <p>BedroomAbvGr</p>
+    <p><input type="text" name="BedroomAbvGr"></p>
+    <p>KitchenAbvGr</p>
+    <p><input type="text" name="KitchenAbvGr"></p>
+    <p>KitchenQual</p>
+    <p><input type="text" name="KitchenQual"></p>
+    <p>Fireplaces</p>
+    <p><input type="text" name="Fireplaces"></p>
+    <p>GarageType</p>
+    <p><input type="text" name="GarageType"></p>
+
+    <p>GarageFinish</p>
+    <p><input type="text" name="GarageFinish"></p>
+    <p>GarageCars</p>
+    <p><input type="text" name="GarageCars"></p>
+    <p>GarageQual</p>
+    <p><input type="text" name="GarageQual"></p>
+    <p>PavedDrive</p>
+    <p><input type="text" name="PavedDrive"></p>
+    <p>MoSold</p>
+    <p><input type="text" name="MoSold"></p>
+
+    <p>YrSold</p>
+    <p><input type="text" name="YrSold"></p>
+    <p>SaleType</p>
+    <p><input type="text" name="SaleType"></p>
+    <p>SaleCondition</p>
+    <p><input type="text" name="SaleCondition"></p>
+
+    <p><input type="submit" value="predict"> </p>
+
+</form>
+</body>
+</html>

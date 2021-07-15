@@ -1,7 +1,7 @@
+Python
 Flask
 gunicorn==20.1.0
 Jinja2
-h5py==2.10.0
 imblearn
 numpy
 pandas

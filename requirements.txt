@@ -11,3 +11,4 @@ seaborn==0.10.0
 werkzeug
 click
 certifi==2020.12.5
+setuptools==0.7.3

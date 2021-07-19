@@ -1,4 +1,4 @@
-Python==3.9.6
+Python==3.8.11
 Flask
 gunicorn==20.1.0
 Jinja2

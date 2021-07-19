@@ -1,4 +1,3 @@
-Python==3.8.11
 Flask
 gunicorn==20.1.0
 Jinja2
@@ -11,4 +10,4 @@ seaborn==0.10.0
 werkzeug
 click
 certifi==2020.12.5
-setuptools==1.0
+setuptools
